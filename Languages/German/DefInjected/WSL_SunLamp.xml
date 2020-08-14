@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WSLWallSunLamp.label>Künstl. Sonne Wandlampe</WSLWallSunLamp.label>
+  <WSLWallSunLamp.description>Eine Lampe mit heller Leuchtkraft, die an der Wand montiert werden kann. Perfekt für Drinnen und unabhänging von der Jahreszeit. Wirft Sonnenlicht bis zu 15 Quadrate entfernt.</WSLWallSunLamp.description>
+  <WSLWallSunLamp_Blueprint.label>Künstl. Sonne Wandlampe (Entwurf)</WSLWallSunLamp_Blueprint.label>
+  <WSLWallSunLamp_Blueprint_Install.label>Künstl. Sonne Wandlampe (Entwurf)</WSLWallSunLamp_Blueprint_Install.label>
+  <WSLWallSunLamp_Frame.label>Künstl. Sonne Wandlampe (im Bau)</WSLWallSunLamp_Frame.label>
+  <WSLWallSunLamp_Frame.description>Eine Lampe mit heller Leuchtkraft, die an der Wand montiert werden kann. Perfekt für Drinnen und unabhänging von der Jahreszeit. Wirft Sonnenlicht bis zu 15 Quadrate entfernt.
+
+  <WSLWallBrightLamp.label>Wandlampe</WSLWallBrightLamp.label>
+  <WSLWallBrightLamp.description>Eine helle Wandlampe, die normales Licht ausstrahlt.</WSLWallBrightLamp.description>
+  <WSLWallBrightLamp_Blueprint.label>Wandlampe (Entwurf)</WSLWallBrightLamp_Blueprint.label>
+  <WSLWallBrightLamp_Blueprint_Install.label>Wandlampe (Entwurf)</WSLWallBrightLamp_Blueprint_Install.label>
+  <WSLWallBrightLamp_Frame.label>Wandlampe (im Bau)</WSLWallBrightLamp_Frame.label>
+  <WSLWallBrightLamp_Frame.description>Eine helle Wandlampe, die normales Licht ausstrahlt.</WSLWallBrightLamp_Frame.description>
+
+
+</LanguageData>

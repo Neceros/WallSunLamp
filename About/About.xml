@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Wall Sun Lamp</name>
+	<author>Neceros</author>
+	<supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>neceros.wallsunlamp</packageId>
+	<description>Adds two lights which are mounted upon walls. One light produces enough light to grow crops, and one is just a really bright lamp. Pawns can freely walk through the light with no problems.
+
+	[h1]Wall Sun Lamp[/h1]
+	Power needed: 600W
+	Light radius: 15 squares (plant growing strength)
+
+	[h1]Wall Bright Lamp[/h1]
+	Power needed: 50W
+	Light radius: 20
+
+
+	This mod is based on Wall Light by Murmur, but does not require that mod to function. You just won't have a normal wall light.
+
+</description>
+</ModMetaData>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" Name="WSL_SunLampBase" ParentName="BuildingBase">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+    <designationCategory>Furniture</designationCategory>
+    <fillPercent>0.20</fillPercent>
+    <pathCost>0</pathCost>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <altitudeLayer>Blueprint</altitudeLayer>
+    <passability>Standable</passability>
+  	<statBases>
+      <MaxHitPoints>25</MaxHitPoints>
+      <WorkToBuild>600</WorkToBuild>
+      <Flammability>0.8</Flammability>
+      <Mass>4</Mass>
+    </statBases>
+    <size>(1,1)</size>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <building>
+      <canBuildNonEdificesUnder>true</canBuildNonEdificesUnder>
+      <isEdifice>false</isEdifice>
+      <isInert>true</isInert>
+    </building>
+    <rotatable>true</rotatable>
+  	<selectable>true</selectable>
+  	<destroyable>true</destroyable>
+    <neverMultiSelect>true</neverMultiSelect>
+  	<clearBuildingArea>false</clearBuildingArea>
+  	<researchPrerequisites>
+      <li>Electricity</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef Name="WSL_SunLamp" ParentName="WSL_SunLampBase">
+    <defName>WSLWallSunLamp</defName>
+    <label>wall sun lamp</label>
+    <graphicData>
+      <texPath>Things/Building/TWBSunLight</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>2,2</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>20</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <uiIconPath>Things/Building/TWBSunLight_UI</uiIconPath>
+    <description>A bright sun lamp designed to be mounted on a wall. Perfect for indoor growing year-round. Sheds sun-light up to 15 squares away.</description>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <overlightRadius>16</overlightRadius>
+        <glowRadius>20</glowRadius>
+        <glowColor>(380,380,270,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>1</heatPerSecond>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>600</basePowerConsumption>
+      </li>
+    </comps>
+    <specialDisplayRadius>14.9</specialDisplayRadius>
+  </ThingDef>
+
+
+    <ThingDef Name="WSL_BrightLamp" ParentName="WSL_SunLampBase">
+    <defName>WSLWallBrightLamp</defName>
+    <label>wall bright lamp</label>
+    <graphicData>
+      <texPath>Things/Building/TWBSunLight</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>2,2</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>20</Steel>
+    </costList>
+    <uiIconPath>Things/Building/TWBSunLight_UI</uiIconPath>
+    <description>A bright wall-mounted lamp that sheds normal light a far distance.</description>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>20</glowRadius>
+        <glowColor>(217,217,192,0)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>35</basePowerConsumption>
+      </li>
+    </comps>
+  </ThingDef>
+  
+
+
+</Defs>
